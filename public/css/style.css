@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bubbler+One&family=Roboto+Mono:wght@200&family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap");
+@import "http://fonts.googleapis.com/css?family=Raleway";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* display: flex;
+  flex-direction: column; */
+  min-height: 100vh;
+}
+/* .navbar {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+} */
+.navbar-brand {
+  font-size: 30px;
+  margin-right: 50px;
+  text-align: center;
+}
+.nav-item {
+  margin-left: 20px;
+  font-size: large;
+}
+.main_back {
+  background-size: cover;
+  background-blend-mode: darken;
+  width: 100%;
+  height: 90vh;
+  filter: brightness(0.3);
+  position: relative;
+}
+.servicesprovide {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.text-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 35%;
+}
+
+.text-wrapper h1 {
+  font-family: "Playfair Display SC", serif;
+
+  font-size: 100px;
+  cursor: pointer;
+  font-weight: bold;
+
+  background: -webkit-linear-gradient(rgb(226, 197, 102), rgb(221, 131, 28));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-wrapper p {
+  font-family: "Playfair Display SC", serif;
+
+  cursor: pointer;
+
+  font-size: 30px;
+  background: -webkit-linear-gradient(rgb(226, 197, 102), rgb(221, 131, 28));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#we_provide{
+  text-decoration: underline grey 4px;
+}
+
+.footer {
+  margin-top: auto;
+}
+.text-footer {
+  font-family: "Playfair Display SC", serif;
+
+  font-size: 100px;
+  cursor: pointer;
+  font-weight: bold;
+
+  background: -webkit-linear-gradient(rgb(226, 197, 102), rgb(221, 131, 28));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer {
+  /* background-color: rgb(71, 65, 65); */
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
+.footercontent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#failyet h2 {
+  text-align: center;
+  font-size: 40px;
+
+  margin-bottom: 15px;
+}
+
+.serviceslink strong {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+  border-bottom: 2px solid white;
+}
+.serviceslink strong a {
+  color: white;
+  text-decoration: none;
+}
+.serviceslink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 62px;
+}
+.serviceslink p {
+  margin-top: 10px;
+}
+.serviceslink p a {
+  font-weight: lighter;
+  font: 15px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+.marginforservices {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.serviceslink p a:hover {
+  text-decoration: underline;
+  color: beige;
+}
+.for {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-weight: lighter;
+  font: 15px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  display: flex;
+  margin-top: 20px;
+  /* margin-left: -160px; */
+}
+#ig,
+#lk {
+  margin-top: -5px;
+  margin-left: 15px;
+}
+#links {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+
+  font-family: "Raleway", sans-serif;
+  border-bottom: 2px solid white;
+}
+
+.Slinks {
+  margin-top: 20px;
+  /* margin-left: -600px; */
+}
+.copy {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+}
+.contactUS {
+  margin-bottom: 15px;
+  /* margin-left: -256px; */
+}
+.contactUS strong {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+  border-bottom: 2px solid white;
+}
+.contactUS #mail {
+  /* margin-left: 198px; */
+}
+.contactUS i {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.secondsection {
+  margin-top: 240px;
+
+  /* height: 110vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #23E3C9; */
+}
+.abc {
+  display: none;
+}
+
+/* form  */
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* .text-wrapper h1 {
+    font-size: 30px;
+  }
+  .text-wrapper p {
+    font-size: 20px;
+  } */
+  .text-wrapper{
+top: 40%;
+  }
+  .text-wrapper h1{
+    font-size: 60px;
+  }
+  .text-wrapper p{
+font-size: 20px;
+  }
+  .footercontent {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .serviceslink {
+    margin-left: 20px;
+  }
+  .Slinks {
+    text-align: center;
+  }
+  .contactUS {
+    text-align: center;
+  }
+  .marginforservices {
+    margin-right: 12px;
+  }
+  .servicesprovide {
+    text-align: -webkit-center;
+  }
+  .card_col{
+    margin-bottom: 50px;
+  }
+  .form-group{
+    text-align: initial;
+  }
+  #myModal{
+    top: 13%;
+  }
+}
